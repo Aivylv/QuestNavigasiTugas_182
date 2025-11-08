@@ -62,3 +62,10 @@ fun HalamanHome (
                 fontSize = 20.sp,
                 textAlign = TextAlign.Center
             )
+            Text(
+                text = stringResource(id = R.string.nim),
+                fontWeight = FontWeight.Medium,
+                fontSize = 18.sp,
+                textAlign = TextAlign.Center
+            )
+        }
