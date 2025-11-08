@@ -90,3 +90,41 @@ fun DaftarPeserta(
                             )
                         }
                     }
+
+                    Spacer(modifier = Modifier.height(8.dp))
+
+                    Row(
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Column(modifier = Modifier.weight(1f)) { // Status Perkawinan
+                            Text(
+                                text = stringResource(id = R.string.status_perkawinan),
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 13.sp
+                            )
+
+                            Text(
+                                text = "Lajang",
+                                fontSize = 14.sp
+                            )
+                        }
+
+                        Column(
+                            modifier = Modifier.weight(1f),
+                            horizontalAlignment = Alignment.End
+                        ) {
+                            Text(
+                                text = stringResource(id = R.string.alamat),
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 13.sp
+                            )
+
+                            Text(
+                                text = "Bantul",
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
+                }
+            }
