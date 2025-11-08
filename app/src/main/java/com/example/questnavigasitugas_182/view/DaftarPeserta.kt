@@ -209,3 +209,23 @@ fun DaftarPeserta(
                 }
             }
         }
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Button(
+                onClick = OnBerandaClick,
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(text = stringResource(id = R.string.beranda))
+            }
+
+            Button(
+                onClick = OnFormulirClick,
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(text = stringResource(id = R.string.formulir))
+            }
+        }
+    }
+}
