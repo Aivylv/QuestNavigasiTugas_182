@@ -44,3 +44,11 @@ fun HalamanHome (
             ),
             textAlign = TextAlign.Center
         )
+
+        Image(
+            painter = painterResource(id = R.drawable.logo),
+            contentDescription = "Logo Aplikasi",
+            modifier = Modifier
+                .size(220.dp)
+                .padding(vertical = 16.dp)
+        )
