@@ -73,3 +73,20 @@ fun DaftarPeserta(
                                 fontSize = 14.sp
                             )
                         }
+
+                        Column(
+                            modifier = Modifier.weight(1f),
+                            horizontalAlignment = Alignment.End
+                        ) {
+                            Text(
+                                text = stringResource(id = R.string.jenis_kelamin),
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 13.sp
+                            )
+
+                            Text(
+                                text = "Perempuan",
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
