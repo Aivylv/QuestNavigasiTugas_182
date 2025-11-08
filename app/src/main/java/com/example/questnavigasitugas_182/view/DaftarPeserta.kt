@@ -30,4 +30,23 @@ import com.example.questnavigasitugas_182.R
 fun DaftarPeserta(
     OnBerandaClick: () -> Unit,
     OnFormulirClick: () -> Unit
-)
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(24.dp),
+        verticalArrangement = Arrangement.SpaceBetween,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text (
+                text = stringResource(id = R.string.judul_list),
+                style = MaterialTheme.typography.titleLarge.copy(
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Bold
+                ),
+                modifier = Modifier.padding(bottom = 16.dp)
+            )
