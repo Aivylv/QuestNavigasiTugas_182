@@ -50,3 +50,26 @@ fun DaftarPeserta(
                 ),
                 modifier = Modifier.padding(bottom = 16.dp)
             )
+
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(12.dp),
+                elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+            ) {
+                Column(modifier = Modifier.padding(16.dp)) {
+                    Row(
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Column(modifier = Modifier.weight(1f)) { // Nama Lengkap
+                            Text(
+                                text = stringResource(id = R.string.nama_lengkap),
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 13.sp
+                            )
+
+                            Text(
+                                text = "Lyvia Ayuning Larasati",
+                                fontSize = 14.sp
+                            )
+                        }
