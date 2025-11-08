@@ -69,3 +69,10 @@ fun HalamanHome (
                 textAlign = TextAlign.Center
             )
         }
+
+        Button(
+            onClick = OnMasukBtnClick,
+            modifier = Modifier
+                .fillMaxWidth(0.6f)
+                .padding(top = 24.dp)
+        )
