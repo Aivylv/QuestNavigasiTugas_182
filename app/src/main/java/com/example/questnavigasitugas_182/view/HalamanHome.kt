@@ -52,3 +52,13 @@ fun HalamanHome (
                 .size(220.dp)
                 .padding(vertical = 16.dp)
         )
+
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ){
+            Text(
+                text = stringResource(id = R.string.nama),
+                fontWeight = FontWeight.Medium,
+                fontSize = 20.sp,
+                textAlign = TextAlign.Center
+            )
