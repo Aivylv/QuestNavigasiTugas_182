@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">QuestNavigasiTugas_182</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="formulir">Formulir</string>
+    <string name="beranda">Beranda</string>
+    <string name="masuk">Masuk</string>
+    <string name="judul_welcome">Selamat Datang</string>
+    <string name="nama">Lyvia Ayuning Larasati</string>
+    <string name="nim">20230140182</string>
+    <string name="judul_list">List Daftar Peserta</string>
+    <string name="nama_lengkap">NAMA LENGKAP</string>
+    <string name="jenis_kelamin">JENIS KELAMIN</string>
+    <string name="status_perkawinan">STATUS PERKAWINAN</string>
+    <string name="alamat">ALAMAT</string>
+    <string name="judul_form">Formulir Pendaftaran</string>
+    <string name="Notifikasi">Data Berhasil Disimpan</string>
 </resources>
