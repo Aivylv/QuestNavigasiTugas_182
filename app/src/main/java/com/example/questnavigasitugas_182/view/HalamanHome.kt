@@ -35,4 +35,12 @@ fun HalamanHome (
             .padding (horizontal = 24.dp, vertical = 32.dp),
         verticalArrangement = Arrangement.SpaceEvenly,
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        Text(
+            text = stringResource(id = R.string.welcome),
+            style = MaterialTheme.typography.titleLarge.copy (
+                fontWeight = FontWeight.Bold,
+                fontSize = 24.sp
+            ),
+            textAlign = TextAlign.Center
+        )
