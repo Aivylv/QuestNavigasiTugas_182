@@ -61,7 +61,7 @@ fun DaftarPeserta(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         modifier = Modifier.fillMaxWidth()
                     ) {
-                        Column(modifier = Modifier.weight(1f)) { // Nama Lengkap
+                        Column(modifier = Modifier.weight(1f)) {
                             Text(
                                 text = stringResource(id = R.string.nama_lengkap),
                                 fontWeight = FontWeight.Bold,
@@ -97,7 +97,7 @@ fun DaftarPeserta(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         modifier = Modifier.fillMaxWidth()
                     ) {
-                        Column(modifier = Modifier.weight(1f)) { // Status Perkawinan
+                        Column(modifier = Modifier.weight(1f)) {
                             Text(
                                 text = stringResource(id = R.string.status_perkawinan),
                                 fontWeight = FontWeight.Bold,
