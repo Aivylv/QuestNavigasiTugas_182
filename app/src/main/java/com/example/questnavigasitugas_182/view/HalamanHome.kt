@@ -25,3 +25,7 @@ import com.example.questnavigasitugas_182.R
 
 @OptIn (ExperimentalMaterial3Api::class)
 @Composable
+
+fun HalamanHome (
+    OnMasukBtnClick: () -> Unit
+)
