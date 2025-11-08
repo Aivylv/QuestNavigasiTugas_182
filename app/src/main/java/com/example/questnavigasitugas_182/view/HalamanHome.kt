@@ -28,4 +28,11 @@ import com.example.questnavigasitugas_182.R
 
 fun HalamanHome (
     OnMasukBtnClick: () -> Unit
-)
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding (horizontal = 24.dp, vertical = 32.dp),
+        verticalArrangement = Arrangement.SpaceEvenly,
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
